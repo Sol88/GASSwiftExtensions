@@ -31,4 +31,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Sources/**/*.h'
   s.frameworks = 'UIKit'
   s.dependency 'SwiftDate', '~> 4.0'
+  s.dependency 'Kingfisher', '~> 3.0'
 end

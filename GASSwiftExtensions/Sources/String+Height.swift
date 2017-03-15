@@ -1,10 +1,5 @@
-//
-//  String+Height.swift
-//  BusinessAppsPromo
-//
 //  Created by Виктор Заикин on 31.03.16.
 //  Copyright © 2016 Виктор Заикин. All rights reserved.
-//
 
 import UIKit
 

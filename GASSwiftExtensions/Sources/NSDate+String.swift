@@ -1,10 +1,5 @@
-//
-//  NSDate+String.swift
-//  Gifteka
-//
 //  Created by Виктор Заикин on 21.07.16.
 //  Copyright © 2016 Виктор Заикин. All rights reserved.
-//
 
 import Foundation
 import SwiftDate
