@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GASSwiftExtensions_Example' do
+  pod 'GASSwiftExtensions', :path => '../'
+
+  target 'GASSwiftExtensions_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
