@@ -29,6 +29,6 @@ Pod::Spec.new do |s|
   s.source_files = 'GASSwiftExtensions/Sources/*.swift'
 
   # s.public_header_files = 'Pod/Sources/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
+  s.dependency 'SwiftDate', '~> 4.0'
 end
