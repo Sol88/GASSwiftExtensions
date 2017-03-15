@@ -9,7 +9,7 @@ public extension UIAlertController {
         message: String?,
         tintColor: UIColor? = nil,
         inViewController viewController: UIViewController,
-        actionBlock: (() -> ())?)
+        actionBlock: (() -> Void)?)
     {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         
