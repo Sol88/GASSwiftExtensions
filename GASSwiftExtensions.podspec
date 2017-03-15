@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'GASSwiftExtensions are extensions over some classes and libs.'
+  s.description      = 'GASSwiftExtensions are extensions over some classes and libs such as SwiftDate and Kingfisher. Also makes work with shadows much more easy'
 
   s.homepage         = 'https://github.com/sol88/GASSwiftExtensions'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
