@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GASSwiftExtensions'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'GASSwiftExtensions are extensions over some classes and libs.'
 
 # This description is used to generate tags and improve search results.
