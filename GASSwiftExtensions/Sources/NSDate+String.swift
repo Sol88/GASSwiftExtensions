@@ -6,15 +6,14 @@ import SwiftDate
 
 public extension String {
     public func date(format: String) -> Date? {
-        let date = try? self.date(format: .custom(format))
-        return date?.absoluteDate
+        return self.date(format: .custom(format))?.absoluteDate
     }
-    
+
     public func toDate() -> Date? {
-        if let dt = try? date(format: DateFormat.iso8601(options: .withInternetDateTime)).absoluteDate {
+        if let dt = date(format: DateFormat.iso8601(options: .withInternetDateTime))?.absoluteDate {
             return dt
         }
-        else if let dt = try? date(format: DateFormat.iso8601(options: .withInternetDateTimeExtended)).absoluteDate {
+        else if let dt = date(format: DateFormat.iso8601(options: .withInternetDateTimeExtended))?.absoluteDate {
             return dt
         }
         else if let dt = date(format: "yyyy-MM-dd") {
