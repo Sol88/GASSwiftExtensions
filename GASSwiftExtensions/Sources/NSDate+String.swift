@@ -10,10 +10,7 @@ public extension String {
     }
 
     public func toDate() -> Date? {
-        if let dt = date(format: DateFormat.iso8601(options: .withInternetDateTime))?.absoluteDate {
-            return dt
-        }
-        else if let dt = date(format: DateFormat.iso8601(options: .withInternetDateTimeExtended))?.absoluteDate {
+        if let dt = date(format: DateFormat.iso8601Auto)?.absoluteDate {
             return dt
         }
         else if let dt = date(format: "yyyy-MM-dd") {
